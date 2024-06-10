@@ -1,0 +1,47 @@
+{
+    "name": "j-hansol/laravel-language-detect",
+    "description": "This is a package for language detection and configuration for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JHansol\\LaravelLanguageDetect\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JHansol\\LaravelLanguageDetect\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "SungHyun Jang",
+            "email": "pig492@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JHansol\\LaravelLanguageDetect\\LanguageDetectServiceProvider"
+            ],
+            "aliases": {
+              "LanguageDetect": "JHansol\\LaravelLanguageDetdct\\LanguageDetect"
+            }
+        }
+    }
+}
