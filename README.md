@@ -1,4 +1,4 @@
-# Language detection and configuration for Laravel
+# Language detection and Setting for Laravel
 [![License](https://img.shields.io/badge/Version-1.0.0-blue)](https://opensource.org/licenses/MIT)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
